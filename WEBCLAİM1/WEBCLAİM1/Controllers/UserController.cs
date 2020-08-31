@@ -11,7 +11,7 @@ namespace WEBCLAİM1.Controllers
 {
     [Route("api/user")]
     [ApiController]
-    
+    [AllowAnonymous()]
     public class UserController : ControllerBase
     {
         [HttpGet]
